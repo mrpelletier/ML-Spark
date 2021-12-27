@@ -1,0 +1,48 @@
+*************** Movies with Highest Ratings for Age 35 ***************
++---+-------+--------------------+-----+----------+
+|age|movieID|         movie_title|Count|avg_Rating|
++---+-------+--------------------+-----+----------+
+| 35|    963|Some Folks Call I...|    3|       5.0|
+| 35|    905|Great Expectation...|    1|       5.0|
+| 35|    557|Farinelli: il cas...|    1|       5.0|
+| 35|    359|Assignment, The (...|    1|       5.0|
+| 35|      6|Shanghai Triad (Y...|    1|       5.0|
+| 35|    478|Philadelphia Stor...|    3|       5.0|
+| 35|   1150|   Last Dance (1996)|    1|       5.0|
+| 35|    606|All About Eve (1950)|    2|       5.0|
+| 35|    113|Horseman on the R...|    1|       5.0|
+| 35|    986|   Turbulence (1997)|    1|       5.0|
++---+-------+--------------------+-----+----------+
+only showing top 10 rows
+
+*************** Most Watched Movies for Age 35 ***************
++---+-------+--------------------+-----+------------------+
+|age|movieID|         movie_title|Count|        avg_Rating|
++---+-------+--------------------+-----+------------------+
+| 35|     50|    Star Wars (1977)|   18| 4.111111111111111|
+| 35|     98|Silence of the La...|   18| 4.333333333333333|
+| 35|    288|       Scream (1996)|   16|               3.0|
+| 35|    181|Return of the Jed...|   15|               3.8|
+| 35|    216|When Harry Met Sa...|   15|3.7333333333333334|
+| 35|    195|Terminator, The (...|   15| 4.066666666666666|
+| 35|    258|      Contact (1997)|   15| 4.066666666666666|
+| 35|    197|Graduate, The (1967)|   14| 3.857142857142857|
+| 35|    234|         Jaws (1975)|   14| 3.857142857142857|
+| 35|    174|Raiders of the Lo...|   14| 4.357142857142857|
++---+-------+--------------------+-----+------------------+
+only showing top 10 rows
+
+*************** RMSE ***************
+Root-mean-square error =0.8735839239104292
+                                    
+*************** Top 10 recommendations for user Age 35 ***************
+They Made Me a Criminal (1939)5.031846046447754
+Star Kid (1997)5.026079177856445
+Marlene Dietrich: Shadow and Light (1996) 5.01992654800415
+Faust (1994)4.829571723937988
+Aiqing wansui (1994)4.774482727050781
+Hugo Pool (1997)4.708924293518066
+Close Shave, A (1995)4.669748306274414
+Schindler's List (1993)4.604257106781006
+Pather Panchali (1955)4.580963134765625
+Aparajito (1956)4.578793525695801
